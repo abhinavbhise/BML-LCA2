@@ -1,1 +1,2 @@
 # BML-LCA2
+K-Means (k=8) achieved 77.60% accuracy when clusters were mapped to their majority true label. The silhouette score (0.09) is low, and the PCA plot shows the "yes"/"no" classes overlap heavily in feature space — meaning K-Means struggles to separate them since it clusters by feature similarity, not by the label itself. Accuracy is only slightly above the majority-class baseline (77.23%), so K-Means is not a strong classifier for this dataset, though it did produce meaningfully different clusters (visible in the PCA plot).
